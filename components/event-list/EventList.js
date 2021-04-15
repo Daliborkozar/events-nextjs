@@ -1,11 +1,12 @@
 import React from "react";
 import EventItem from "./EventItem";
+import styled from 'styled-components'
 
 const EventList = (props) => {
   const { items } = props;
 
   return (
-    <ul>
+    <List>
       {items.map((event) => (
         <EventItem
           key={event.id}
@@ -15,8 +16,12 @@ const EventList = (props) => {
           image={event.image}
         />
       ))}
-    </ul>
+    </List>
   );
 };
 
 export default EventList;
+
+const List = styled.ul`
+    margin: 0 auto;
+`
