@@ -20,12 +20,12 @@ const EventItem = (props) => {
         <img src={`/` + image} alt={title} />
       </ImageWrap>
       <RightText>
-        <div>
+        <InfoEvent>
           <h2>{title}</h2>
           <div>
             <time>{dateString}</time>
           </div>
-        </div>
+        </InfoEvent>
         <ButtonWrap>
           <Button link={exploreLink}>Explore event</Button>
         </ButtonWrap>
@@ -57,13 +57,21 @@ const ImageWrap = styled.div`
 `;
 
 const RightText = styled.div`
+width: 100%;
   max-width: 100%;
   display: flex;
   padding: 0.5rem;
+  justify-content: space-between;
+
 `;
 
 const ButtonWrap = styled.div`
   align-self: flex-end;
-  margin-bottom: 2rem;
-  width: 200px;
+  margin-bottom: 1rem;
+  width: 190px;
+  
 `;
+
+const InfoEvent = styled.div`
+    width: 80%;
+`

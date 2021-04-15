@@ -19,4 +19,5 @@ const StyledLink = styled.a`
   border-radius: 5px;
   cursor: pointer;
   width: 100%;
+  text-align: right;
 `;

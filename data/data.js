@@ -1,31 +1,34 @@
 const DUMMY_EVENTS = [
     {
       id: 'e1',
-      title: 'Svirka bend 1',
+      title: 'Queen tribute',
       description:
         'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Ciceros De Finibus Bonorum et Malorum for use in a type specimen book.',
       date: '2021-05-12',
       image: 'images/event1.jpeg',
       isFeatured: true,
+      price: 'Free'
     },
     {
         id: 'e2',
-        title: 'Svirka bend 2',
+        title: 'MrKey i Jamby',
         description:
           "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
         
         date: '2021-05-30',
         image: 'images/event2.jpeg',
         isFeatured: true,
+        price: 'Free'
       },
       {
         id: 'e3',
-        title: 'Svirka bend 3',
+        title: 'Fat Walk',
         description:
           'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Ciceros De Finibus Bonorum et Malorum for use in a type specimen book.',
         date: '2022-04-10',
         image: 'images/event3.jpeg',
         isFeatured: true,
+        price: 'Free'
       },
     ];
 
